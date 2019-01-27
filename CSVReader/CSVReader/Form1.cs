@@ -21,7 +21,7 @@ namespace CSVReader
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //csvから情報を取得 --> call function
+            //csvから情報を取得 --> call function 
             //labelに表示
             this.label1.Text = ReadCsv();
         }
